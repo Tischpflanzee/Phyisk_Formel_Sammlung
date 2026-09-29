@@ -11,7 +11,7 @@
 \usepackage[ddmmyyyy]{datetime}%zum bearbeiten vom Datungs Format
 \usepackage{eurosym}%für \Euro / \euro
 \usepackage{hyperref}
-
+\usepackage{unicode-math}
 
 
 \newcommand{\Thema}{Formelsammlung}
@@ -35,7 +35,7 @@
 
 
 \title{\Thema}
-\author{Niklas Hainz}
+\author{Niklas Hainz, Nils Brück}
 \date{\today}
 
 \setlength{\parindent}{0cm} %deaktiviert die Automatische Einrückung am Anfang des Dokumentes 
@@ -249,6 +249,20 @@
 					\begin{equation}
 						E = \frac{\frac{Q}{C}}{d} = \frac{Q}{Cd}
 					\end{equation}
-				
+					
+					Ladungskurve
+					\begin{equation}
+						U_{c} = U_{0} (1-e^{- \frac{t}{\tau}})
+					\end{equation}
+					Entladungskurve
+					\begin{equation}
+						U_{c} = U_{0} \cdot e^{- \frac{t}{\tau}}
+					\end{equation}
+					Tau $\tau$
+					\begin{equation}
+						\tau = R \cdot C
+					\end{equation}
+					%R=Widersatnd C=kapazität
+					
     \end{spacing}
 \end{document}
